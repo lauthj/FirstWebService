@@ -9,7 +9,10 @@ public class AnimalTypeService {
 			animalType = "Domestic";
 		} else if ("Jaguar".equals(animal) || "jaguar".equals(animal)) {
 				animalType = "South American cat";
-		} else {
+		}
+		else if ("Alligator".equals(animal) || "alligator".equals(animal)) {
+			animalType = "SouthEastern US animal";
+		}else {
 			animalType = "I don't know!";
 		}
 		return animalType;
