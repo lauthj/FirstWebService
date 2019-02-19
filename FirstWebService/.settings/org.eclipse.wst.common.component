@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="FirstWebService">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="axis.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis/axis">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging/commons-logging">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wsdl4j.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/wsdl4j/wsdl4j">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-discovery-0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-discovery-0.2/commons-discovery-0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxrpc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jaxrpc/jaxrpc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="saaj.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/saaj/saaj">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="FirstWebService"/>
+        <property name="java-output-path" value="/FirstWebService/build/classes"/>
+    </wb-module>
+</project-modules>
